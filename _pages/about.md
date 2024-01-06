@@ -2,10 +2,10 @@
 layout: page
 title: About
 permalink: /about/
-image: 01.jpg
+image: profile2.jpg
 ---
 
-Hi, my name is Alex Rodriguez. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+Systems engineer graduated from the <a href="https://www.utmachala.edu.ec/portalwp/">Technical University of Machala</a>, I have worked as an IT support technician and Jr. systems administrator. I am currently studying Machine Learning and Artificial Intelligence. Passionate about the world of Linux and open source. I study Gnostic knowledge as a philosophy of life for personal development.
 
 ***
 
