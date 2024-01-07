@@ -23,7 +23,7 @@ image: profile4.jpg
 #### Systems Engineer - Technical University of Machala UTMACH
 <small>2016 - 2021</small>
 
-<p align="center"></p><a href="https://www.utmachala.edu.ec/portalwp/"> <img src="https://www.utmachala.edu.ec/portalwp/wp-content/uploads/2015/08/LOGO_OUT.png" width="190" height="190" align="center" alt="Technical University of Machala UTMACH"></a></p>
+<p align="center"><a href="https://www.utmachala.edu.ec/portalwp/"> <img src="https://www.utmachala.edu.ec/portalwp/wp-content/uploads/2015/08/LOGO_OUT.png" width="190" height="190" align="center" alt="Technical University of Machala UTMACH"></a></p>
 
 <p align="justify">I obtained my degree through degree work with the subject: <a href="http://repositorio.utmachala.edu.ec/handle/48000/17847">'Creation of 3D models aimed at augmented reality projects for ecommerce'</a>.</p>
 
