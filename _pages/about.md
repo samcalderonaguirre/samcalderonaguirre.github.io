@@ -28,6 +28,6 @@ image: profile5.jpeg
 <p align="justify">I obtained my degree through degree work with the subject: <a href="http://repositorio.utmachala.edu.ec/handle/48000/17847">'Creation of 3D models aimed at augmented reality projects for ecommerce'</a>.</p>
 
 <a href="https://maps.app.goo.gl/kbWndfqY3ESLGm9FA"> <img src="https://raw.githubusercontent.com/ikergarcia1996/Iker-Garcia-Ferrero/master/icons/location.png" width="18" height="20" alt="Location"> Machala, El Oro, Ecuador</a>  
-<a href="mailto:samcalderonaguirre1996@gmail.com"> <img src="https://raw.githubusercontent.com/ikergarcia1996/Iker-Garcia-Ferrero/master/icons/mail.png" width="18" height="18" alt="Location">samcalderonaguirre1996@gmail.com</a>
+<a href="mailto:samcalderonaguirre1996@gmail.com"> <img src="https://raw.githubusercontent.com/ikergarcia1996/Iker-Garcia-Ferrero/master/icons/mail.png" width="18" height="18" alt="Location"> samcalderonaguirre1996@gmail.com</a>
 
 ***
