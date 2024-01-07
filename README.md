@@ -1,6 +1,6 @@
-Website and personal blog for samcalderonaguirre
+### Website and personal blog for samcalderonaguirre
 
-<p align="center"> <img src="https://pbs.twimg.com/profile_images/1743690440010850304/hWIlw_Qm_400x400.jpg" align="center" width="100%"> </p>
+<p align="center"> <img src="https://pbs.twimg.com/profile_images/1743690440010850304/hWIlw_Qm_400x400.jpg" align="center" width="50%"> </p>
 
 * * *
 
