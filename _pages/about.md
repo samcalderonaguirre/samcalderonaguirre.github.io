@@ -19,8 +19,14 @@ image: profile4.jpg
 ***
 
 ***
-#### Systems Engineer - College Studies
+#### Systems Engineer - Technical University of Machala UTMACH
 <small>2016 - 2021</small>
+
+<a href="https://www.utmachala.edu.ec/portalwp/"> <img src="https://www.utmachala.edu.ec/portalwp/wp-content/uploads/2015/08/LOGO_OUT.png" width="150" height="150" align="center" alt="Technical University of Machala UTMACH"></a>
+
+<p align="justify">I obtained my degree through degree work with the subject: <a href="http://repositorio.utmachala.edu.ec/handle/48000/17847">'Creation of 3D models aimed at augmented reality projects for ecommerce'</a>.</p>
+
+<a href="https://maps.app.goo.gl/kbWndfqY3ESLGm9FA"> <img src="https://raw.githubusercontent.com/ikergarcia1996/Iker-Garcia-Ferrero/master/icons/location.png" width="18" height="20" alt="Location"> Machala, El Oro, Ecuador</a>  <br> <a href="mailto:samcalderonaguirre1996@gmail.com"> <img src="https://raw.githubusercontent.com/ikergarcia1996/Iker-Garcia-Ferrero/master/icons/mail.png" width="18" height="18" alt="Location">samcalderonaguirre1996@gmail.com</a>
 
 ***
 <table>
