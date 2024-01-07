@@ -30,4 +30,6 @@ image: profile4.jpg
   </tr>
  </table>
 
+<p align="justify">I obtained my degree through degree work with the subject: <a href="http://repositorio.utmachala.edu.ec/handle/48000/17847">'Creation of 3D models aimed at augmented reality projects for ecommerce'</a>.</p>
+
 ***
