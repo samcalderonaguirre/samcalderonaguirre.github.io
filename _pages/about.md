@@ -10,11 +10,14 @@ image: profile2.jpg
 
 
 ***
-
 # Education
-
 ***
 
+***
+## Basic Qualification and Certifications
+***
+
+***
 
 ### Systems Engineer - College Studies
 <small>2016 - 2021</small>
