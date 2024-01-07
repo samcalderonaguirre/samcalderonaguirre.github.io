@@ -5,4 +5,13 @@ permalink: /publications/
 image: publications.jpg
 ---
 
-A paragraph looks like this — dolor amet cray stumptown fingerstache neutra food truck seitan poke cardigan waistcoat VHS snackwave celiac hella. Godard seitan shoreditch flexitarian next level trust fund man braid vegan listicle keytar bitters. Disrupt cray fashion axe unicorn lomo shaman poke glossier keffiyeh snackwave austin tattooed seitan hexagon lo-fi. Lumbersexual irony vaporware, butcher shaman church-key icelan.
+<p align="justify">Academic publications during my studies at the Technical University of Machala.</p>
+
+---
+### <img src="https://www.isbnecuador.com/files/titulos/80934.jpg" width="25"> Manual de Apache Derby Administración de base de datos en Debian 9.4
+Cárdenas Villavicencio, Oscar Efrén; Sancho López, Cristian Stalin;  Alejandro Becerra, Jéssica Pilar; Romero Machare, Bárbara Brigitte; <ins>Calderón Aguirre, Samuel Isaías</ins>
+CASA EDITORIAL CIEM 2021
+ISBN 978-9942-40-829-7
+📖[Book](https://www.isbnecuador.com/catalogo.php?mode=detalle&nt=80934) 📒[PDF](https://www.calameo.com/books/006943678e9b7e8b0fdcf)
+
+---
