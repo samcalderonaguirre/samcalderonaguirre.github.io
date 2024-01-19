@@ -8,7 +8,7 @@ image: profile5.jpeg
 
 <p align="justify">Systems engineer graduated from the <a href="https://www.utmachala.edu.ec/portalwp/">Technical University of Machala</a>, I have worked as an IT support technician and Jr. systems administrator. I am currently studying Machine Learning and Artificial Intelligence. Passionate about the world of Linux and open source. I study Gnostic knowledge as a philosophy of life for personal development.</p>
 
-<p align="center"> <img src="https://pbs.twimg.com/profile_images/1743690440010850304/hWIlw_Qm_400x400.jpg" align="center" width="100%"> </p>
+<p align="center"> <img src="https://pbs.twimg.com/profile_images/1748148847287619585/m0PsSWDg_400x400.jpg" align="center" width="100%"> </p>
 
 ***
 # Education
