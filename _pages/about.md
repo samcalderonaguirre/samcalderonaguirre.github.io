@@ -17,6 +17,7 @@ image: profile5.jpeg
 ### Basic Qualification and Certifications
 
 <p align="justify">I like to be constantly learning, acquiring new skills and knowledge to enhance my professional, personal and spiritual profile.</p>
+
 ***
 
 ***
@@ -29,5 +30,19 @@ image: profile5.jpeg
 
 <a href="https://maps.app.goo.gl/kbWndfqY3ESLGm9FA"> <img src="https://raw.githubusercontent.com/ikergarcia1996/Iker-Garcia-Ferrero/master/icons/location.png" width="18" height="20" alt="Location"> Machala, El Oro, Ecuador</a>  
 <a href="mailto:samcalderonaguirre1996@gmail.com"> <img src="https://raw.githubusercontent.com/ikergarcia1996/Iker-Garcia-Ferrero/master/icons/mail.png" width="18" height="18" alt="Location"> samcalderonaguirre1996@gmail.com</a>
+
+***
+
+***
+#### Certifications
+***
+
+***
+##### NDG Linux Unhatched - Cisco Networking Academy
+<small>January 20, 2024</small>
+
+<p align="center"><a href="https://www.netacad.com/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cisco_Networking_Academy.svg/2560px-Cisco_Networking_Academy.svg.png" width="250" height="250" align="center" alt="Technical University of Machala UTMACH"></a></p>
+
+<p align="justify"><a href="https://drive.google.com/file/d/13SosYv53wgMgCzIzwPR3-DM2OagbQhhw/view?usp=drive_link">'Cisco Networking Academy NDG Linux Unhatched Course Completion Certificate'</a>.</p>
 
 ***
