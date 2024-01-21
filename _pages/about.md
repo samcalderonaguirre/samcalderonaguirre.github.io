@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About and certifications
 permalink: /about/
 image: profile5.jpeg
 ---
@@ -41,8 +41,8 @@ image: profile5.jpeg
 ##### NDG Linux Unhatched - Cisco Networking Academy
 <small>January 20, 2024</small>
 
-<p align="center"><a href="https://www.netacad.com/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cisco_Networking_Academy.svg/2560px-Cisco_Networking_Academy.svg.png" width="250" height="250" align="center" alt="Technical University of Machala UTMACH"></a></p>
+<p align="center"><a href="https://www.netacad.com/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cisco_Networking_Academy.svg/2560px-Cisco_Networking_Academy.svg.png" width="350" height="350" align="center" alt="Technical University of Machala UTMACH"></a></p>
 
-<p align="justify"><a href="https://drive.google.com/file/d/13SosYv53wgMgCzIzwPR3-DM2OagbQhhw/view?usp=drive_link">'Cisco Networking Academy NDG Linux Unhatched Course Completion Certificate'</a>.</p>
+<p align="justify"><a href="https://drive.google.com/file/d/13SosYv53wgMgCzIzwPR3-DM2OagbQhhw/view?usp=drive_link">Cisco Networking Academy NDG Linux Unhatched Course Completion Certificate</a>.</p>
 
 ***
