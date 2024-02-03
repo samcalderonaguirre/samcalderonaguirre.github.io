@@ -18,10 +18,12 @@ tags:   Linux
 * Conectividad a Internet estable
 {% endhighlight %}
 
-###### 1) Actualizar Ubuntu 22.04
+###### 1) Actualizar Ubuntu 24.04 LTS
 
 <p align="justify">Para comenzar, inicie la terminal y realice una actualización de la paquetería local del sistema de la siguiente manera.</p>
 
 {% highlight shell %}
   $ sudo apt update
 {% endhighlight %}
+
+![]({{site.baseurl}}/images/14.png)
