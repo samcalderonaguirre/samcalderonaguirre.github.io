@@ -26,7 +26,7 @@ tags:   Linux
   $ sudo apt update
 {% endhighlight %}
 
-<p align="center">![]({{site.baseurl}}/images/14.png)</p>
+![]({{site.baseurl}}/images/14.png)
 
 ###### 2) Compruebe si la virtualización está habilitada
 
@@ -38,4 +38,4 @@ tags:   Linux
   $ egrep -c '(vmx|svm)' /proc/cpuinfo
 {% endhighlight %}
 
-<p align="center">![]({{site.baseurl}}/images/15.png)</p>
+![]({{site.baseurl}}/images/15.png)
