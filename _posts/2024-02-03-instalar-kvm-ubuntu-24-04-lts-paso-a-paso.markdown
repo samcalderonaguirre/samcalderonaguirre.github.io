@@ -68,14 +68,14 @@ tags:   Linux
 
 <p align="justify">Analicemos los paquetes que estamos instalando:</p>
 
-{% highlight markdown %}
-* qemu-kvm: un emulador de código abierto y un paquete de virtualización que proporciona emulación de hardware.
-* virt-manager: una interfaz gráfica basada en Qt para administrar máquinas virtuales a través del servicio libvirt.
-* libvirt-daemon-system: un paquete que proporciona los archivos de configuración necesarios para ejecutar el servicio libvirt.
-* virtinst: un conjunto de utilidades de línea de comandos para aprovisionar y modificar máquinas virtuales.
-* libvirt-clients: un conjunto de bibliotecas y API del lado del cliente para administrar y controlar máquinas virtuales e hipervisores desde la línea de comandos.
-* bridge-utils: un conjunto de herramientas para crear y administrar dispositivos puente.
-{% endhighlight %}
+
+* <b>qemu-kvm:</b> un emulador de código abierto y un paquete de virtualización que proporciona emulación de hardware.
+* <b>virt-manager:</b> una interfaz gráfica basada en Qt para administrar máquinas virtuales a través del servicio libvirt.
+* <b>libvirt-daemon-system:</b> un paquete que proporciona los archivos de configuración necesarios para ejecutar el servicio libvirt.
+* <b>virtinst:</b> un conjunto de utilidades de línea de comandos para aprovisionar y modificar máquinas virtuales.
+* <b>libvirt-clients:</b> un conjunto de bibliotecas y API del lado del cliente para administrar y controlar máquinas virtuales e hipervisores desde la línea de comandos.
+* <b>bridge-utils:</b> un conjunto de herramientas para crear y administrar dispositivos puente.
+
 
 ###### 4) Iniciar y habilitar el servicio de virtualización
 
@@ -93,3 +93,45 @@ tags:   Linux
 {% endhighlight %}
 
 ![]({{site.baseurl}}/images/17.png)
+
+<p align="justify">Además, debe agregar el usuario actualmente conectado a los grupos kvm y libvirt para que puedan crear y administrar máquinas virtuales.</p>
+
+{% highlight shell %}
+  $ sudo usermod -aG kvm $USER
+  $ sudo usermod -aG libvirt $USER
+{% endhighlight %}
+
+<p align="justify">La variable de entorno $USER apunta al nombre del usuario actualmente conectado. Para aplicar este cambio, debe cerrar sesión y volver a iniciarla.</p>
+ 
+###### 5) Crear puente de red (br0) – Opcional
+
+<p align="justify">Si planea acceder a máquinas virtuales KVM fuera de su sistema Ubuntu 24.04, debe asignar la interfaz de VM a un puente de red. A través de un puente virtual llamado virbr0, se crea automáticamente cuando se instala KVM pero se utiliza con fines de prueba.</p>
+
+<p align="justify">Para crear un puente de red, cree el archivo '01-netcfg.yaml' con el siguiente contenido en la carpeta /etc/netplan.</p>
+
+{% highlight shell %}
+  $ sudo vi /etc/netplan/01-netcfg.yaml
+  
+  network:
+  ethernets:
+    enp0s3:
+      dhcp4: false
+      dhcp6: false
+  # add configuration for bridge interface
+  bridges:
+    br0:
+      interfaces: [enp0s3]
+      dhcp4: false
+      addresses: [192.168.1.162/24]
+      macaddress: 08:00:27:4b:1d:45
+      routes:
+        - to: default
+          via: 192.168.1.1
+          metric: 100
+      nameservers:
+        addresses: [4.2.2.2]
+      parameters:
+        stp: false
+      dhcp6: false
+  version: 2
+{% endhighlight %}
