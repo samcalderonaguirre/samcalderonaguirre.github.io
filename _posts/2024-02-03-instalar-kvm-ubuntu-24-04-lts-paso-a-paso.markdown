@@ -26,4 +26,16 @@ tags:   Linux
   $ sudo apt update
 {% endhighlight %}
 
-![]({{site.baseurl}}/images/14.png)
+<p align="center">![]({{site.baseurl}}/images/14.png)</p>
+
+###### 2) Compruebe si la virtualización está habilitada
+
+<p align="justify">Antes de continuar, debe verificar si su CPU admite la virtualización KVM. Para que esto sea posible, su sistema debe tener un procesador Intel VT-x (vmx) o un procesador AMD-V (svm).</p>
+
+<p align="justify">Esto se logra ejecutando el siguiente comando. si la salida es mayor que 0, entonces la virtualización está habilitada. De lo contrario, la virtualización estará deshabilitada y deberá habilitarla.</p>
+
+{% highlight shell %}
+  $ egrep -c '(vmx|svm)' /proc/cpuinfo
+{% endhighlight %}
+
+<p align="center">![]({{site.baseurl}}/images/15.png)</p>
