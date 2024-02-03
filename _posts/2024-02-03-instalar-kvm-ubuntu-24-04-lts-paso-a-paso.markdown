@@ -69,12 +69,12 @@ tags:   Linux
 <p align="justify">Analicemos los paquetes que estamos instalando:</p>
 
 
-* <b>qemu-kvm:</b> un emulador de código abierto y un paquete de virtualización que proporciona emulación de hardware.
-* <b>virt-manager:</b> una interfaz gráfica basada en Qt para administrar máquinas virtuales a través del servicio libvirt.
-* <b>libvirt-daemon-system:</b> un paquete que proporciona los archivos de configuración necesarios para ejecutar el servicio libvirt.
-* <b>virtinst:</b> un conjunto de utilidades de línea de comandos para aprovisionar y modificar máquinas virtuales.
-* <b>libvirt-clients:</b> un conjunto de bibliotecas y API del lado del cliente para administrar y controlar máquinas virtuales e hipervisores desde la línea de comandos.
-* <b>bridge-utils:</b> un conjunto de herramientas para crear y administrar dispositivos puente.
+* <p align="justify"><b>qemu-kvm:</b> un emulador de código abierto y un paquete de virtualización que proporciona emulación de hardware.</p>
+* <p align="justify"><b>virt-manager:</b> una interfaz gráfica basada en Qt para administrar máquinas virtuales a través del servicio libvirt.</p>
+* <p align="justify"><b>libvirt-daemon-system:</b> un paquete que proporciona los archivos de configuración necesarios para ejecutar el servicio libvirt.</p>
+* <p align="justify"><b>virtinst:</b> un conjunto de utilidades de línea de comandos para aprovisionar y modificar máquinas virtuales.</p>
+* <p align="justify"><b>libvirt-clients:</b> un conjunto de bibliotecas y API del lado del cliente para administrar y controlar máquinas virtuales e hipervisores desde la línea de comandos.</p>
+* <p align="justify"><b>bridge-utils:</b> un conjunto de herramientas para crear y administrar dispositivos puente.</p>
 
 
 ###### 4) Iniciar y habilitar el servicio de virtualización
@@ -135,3 +135,21 @@ tags:   Linux
       dhcp6: false
   version: 2
 {% endhighlight %}
+
+<p align="justify">Guardar y salir del archivo.</p>
+
+<p align="justify"><b>Nota:</b> Estos detalles según mi configuración, así que reemplace las entradas de la dirección IP, el nombre de la interfaz y la dirección mac según su configuración.</p>
+
+<p align="justify">Para aplicar el cambio anterior, ejecute ‘netplan apply’.</p>
+
+{% highlight shell %}
+  $ sudo netplan apply
+{% endhighlight %}
+
+<p align="justify">Verifique el puente de red 'br0', ejecute el siguiente comando ip.</p>
+
+{% highlight shell %}
+  $ ip add show
+{% endhighlight %}
+
+![]({{site.baseurl}}/images/18.png)
