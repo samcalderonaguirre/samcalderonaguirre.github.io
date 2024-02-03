@@ -18,6 +18,7 @@ tags:   Linux
 * Conectividad a Internet estable
 {% endhighlight %}
 
+
 ###### 1) Actualizar Ubuntu 24.04 LTS
 
 <p align="justify">Para comenzar, inicie la terminal y realice una actualización de la paquetería local del sistema de la siguiente manera.</p>
@@ -77,6 +78,7 @@ tags:   Linux
 * <p align="justify"><b>bridge-utils:</b> un conjunto de herramientas para crear y administrar dispositivos puente.</p>
 
 
+
 ###### 4) Iniciar y habilitar el servicio de virtualización
 
 <p align="justify">Con todos los paquetes instalados, habilite e inicie el servicio Libvirt.</p>
@@ -103,6 +105,8 @@ tags:   Linux
 
 <p align="justify">La variable de entorno $USER apunta al nombre del usuario actualmente conectado. Para aplicar este cambio, debe cerrar sesión y volver a iniciarla.</p>
  
+
+
 ###### 5) Crear puente de red (br0) – Opcional
 
 <p align="justify">Si planea acceder a máquinas virtuales KVM fuera de su sistema Ubuntu 24.04, debe asignar la interfaz de VM a un puente de red. A través de un puente virtual llamado virbr0, se crea automáticamente cuando se instala KVM pero se utiliza con fines de prueba.</p>
@@ -153,3 +157,17 @@ tags:   Linux
 {% endhighlight %}
 
 ![]({{site.baseurl}}/images/18.png)
+
+###### 6) Inicie el Administrador de máquinas virtuales KVM
+
+<p align="justify">Con KVM instalado, puede comenzar a crear sus máquinas virtuales utilizando la herramienta GUI virt-manager. Para comenzar, utilice la utilidad de búsqueda de GNOME y busque "Administrador de máquinas virtuales".</p>
+
+![]({{site.baseurl}}/images/19.png)
+
+<p align="justify">Haga clic en el icono que aparece. Esto inicia la interfaz del administrador de máquinas virtuales.</p>
+
+![]({{site.baseurl}}/images/20.png)
+
+<p align="justify">De aquí podrá instalar los sistemas operativos de acuerdo a su trabajo.</p>
+
+![]({{site.baseurl}}/images/21.png)
