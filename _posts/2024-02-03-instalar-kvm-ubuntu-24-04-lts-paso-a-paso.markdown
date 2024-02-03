@@ -39,3 +39,21 @@ tags:   Linux
 {% endhighlight %}
 
 ![]({{site.baseurl}}/images/15.png)
+
+<p align="justify">Del resultado anterior, puede deducir que la virtualización está habilitada ya que el resultado impreso es mayor que 0. Si la virtualización no está habilitada, asegúrese de habilitar la función de virtualización en la configuración del BIOS de su sistema.</p>
+
+<p align="justify">Además, puede verificar si la virtualización KVM está habilitada ejecutando el siguiente comando:</p>
+
+{% highlight shell %}
+  $ kvm-ok
+{% endhighlight %}
+
+<p align="justify">Para que esto funcione, debe haber instalado el paquete cpu-checker; de lo contrario, se encontrará con el error "Comando 'kvm-ok' no encontrado".</p>
+
+<p align="justify">Directamente a continuación, recibirá instrucciones sobre cómo resolver este problema, es decir, instalar el paquete cpu-checker.</p>
+
+{% highlight shell %}
+  $ sudo apt install -y cpu-checker
+{% endhighlight %}
+
+![]({{site.baseurl}}/images/16.png)
