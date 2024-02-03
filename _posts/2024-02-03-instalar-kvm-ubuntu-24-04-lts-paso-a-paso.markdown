@@ -57,3 +57,39 @@ tags:   Linux
 {% endhighlight %}
 
 ![]({{site.baseurl}}/images/16.png)
+
+###### 3) Instale KVM en Ubuntu 24.04
+
+<p align="justify">A continuación, ejecute el siguiente comando para instalar KVM y paquetes de virtualización adicionales en Ubuntu.</p>
+
+{% highlight shell %}
+  $ sudo apt install -y qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-clients bridge-utils
+{% endhighlight %}
+
+<p align="justify">Analicemos los paquetes que estamos instalando:</p>
+
+{% highlight markdown %}
+* qemu-kvm: un emulador de código abierto y un paquete de virtualización que proporciona emulación de hardware.
+* virt-manager: una interfaz gráfica basada en Qt para administrar máquinas virtuales a través del servicio libvirt.
+* libvirt-daemon-system: un paquete que proporciona los archivos de configuración necesarios para ejecutar el servicio libvirt.
+* virtinst: un conjunto de utilidades de línea de comandos para aprovisionar y modificar máquinas virtuales.
+* libvirt-clients: un conjunto de bibliotecas y API del lado del cliente para administrar y controlar máquinas virtuales e hipervisores desde la línea de comandos.
+* bridge-utils: un conjunto de herramientas para crear y administrar dispositivos puente.
+{% endhighlight %}
+
+###### 4) Iniciar y habilitar el servicio de virtualización
+
+<p align="justify">Con todos los paquetes instalados, habilite e inicie el servicio Libvirt.</p>
+
+{% highlight shell %}
+  $ sudo systemctl enable --now libvirtd
+  $ sudo systemctl start libvirtd
+{% endhighlight %}
+
+<p align="justify">Confirme que el servicio de virtualización se esté ejecutando como se muestra.</p>
+
+{% highlight shell %}
+  $ sudo systemctl status libvirtd
+{% endhighlight %}
+
+![]({{site.baseurl}}/images/17.png)
