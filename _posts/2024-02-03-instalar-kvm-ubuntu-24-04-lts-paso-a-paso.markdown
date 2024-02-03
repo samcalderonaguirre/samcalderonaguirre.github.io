@@ -2,7 +2,7 @@
 layout: post
 title:  Cómo instalar KVM en Ubuntu 24.04 LTS paso a paso
 date:   2024-02-03 17:23:23 +0300
-image:  12.jpeg
+image:  12.jpg
 tags:   Linux
 ---
 
