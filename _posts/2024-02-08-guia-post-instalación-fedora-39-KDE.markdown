@@ -57,3 +57,53 @@ tags:   Linux
 
 #### Configurar Flathub
 
+<p align="justify">Flatpak se instala de forma predeterminada en Fedora Workstation, Fedora Silverblue y Fedora Kinoite. Para comenzar, todo lo que necesitas hacer es habilitar Flathub, que es la mejor manera de obtener aplicaciones Flatpak. Simplemente descargue e instale el <a href="https://dl.flathub.org/repo/flathub.flatpakrepo">el archivo del repositorio Flathub</a>.</p>
+
+<p align="justify">Los enlaces anteriores deberían funcionar en las instalaciones predeterminadas de GNOME y KDE Fedora, pero si fallan por algún motivo, puede agregar manualmente el control remoto Flathub ejecutando:</p>
+
+{% highlight shell %}
+  $ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+{% endhighlight %}
+
+
+#### Activar otros repositorios para Fedora 39 desde la tienda Discover de KDE Plasma
+
+<p align="justify">Haga clic en la tienda Discover, después en Preferencias, y marque las opciones de repositorios que ofrece Fedora, por ejemplo los repositorios de Google y del driver propietario de NVIDIA.</p>
+
+![]({{site.baseurl}}/images/25.png)
+
+<p align="justify">Ejecute el siguiente comando en la terminal para actualizar los repositorios.</p>
+
+{% highlight shell %}
+  $ sudo dnf update
+{% endhighlight %}
+
+![]({{site.baseurl}}/images/26.png)
+
+
+#### Multimedia en Fedora
+
+###### Cambiar a ffmpeg completo
+
+<p align="justify">Fedora ffmpeg-free funciona la mayor parte del tiempo, pero de vez en cuando se experimentarán versiones que no coinciden. Cambie a la compilación ffmpeg proporcionada por rpmfusion que sea mejor compatible. Aún deberá seguir la siguiente sección para obtener códecs o complementos adicionales relacionados con los paquetes que pueda haber instalado.</p>
+
+
+{% highlight shell %}
+  $ sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+{% endhighlight %}
+
+
+###### Instalar códecs adicionales
+
+<p align="justify">Esto permitirá que la aplicación que utiliza el marco gstreamer y otro software multimedia reproduzca otros códecs restringidos. El siguiente comando instalará los paquetes multimedia complementarios que necesitan las aplicaciones habilitadas para gstreamer:</p>
+
+{% highlight shell %}
+  $ sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+{% endhighlight %}
+
+<p align="justify">El siguiente comando instalará los paquetes complementarios de sonido y vídeo que necesitan algunas aplicaciones:</p>
+
+{% highlight shell %}
+  $ sudo dnf groupupdate sound-and-video
+{% endhighlight %}
+
