@@ -187,3 +187,81 @@ tags:   Linux
 {% endhighlight %}
 
 
+
+
+#### Instalación del controlador NVIDIA
+
+<p align="justify">NVIDIA tiene varias series de controladores, cada una de las cuales tiene un soporte de hardware diferente. Para determinar qué controlador necesita instalar, primero deberá encontrar el modelo de su tarjeta gráfica.</p>
+
+<p align="justify">Si no lo sabes escriba el siguiente comando en la terminal:</p>
+
+{% highlight shell %}
+  $ /sbin/lspci | grep -e VGA
+{% endhighlight %}
+
+<p align="justify">Probablemente estés en el caso Optimus si tu tarjeta NVIDIA se encuentra con el siguiente comando:</p>
+
+{% highlight shell %}
+  $ /sbin/lspci | grep -e 3D
+{% endhighlight %}
+
+<p align="justify">Instale los siguientes paquetes como requisitos para la instalación del controlador: </p>
+
+{% highlight shell %}
+  $ sudo dnf update -y
+{% endhighlight %}
+
+{% highlight shell %}
+  $ sudo dnf install gcc kernel-headers kernel-devel
+{% endhighlight %}
+
+<p align="justify">Instale el contralador de NVIDIA:  </p>
+
+{% highlight shell %}
+  $ sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda -y
+{% endhighlight %}
+
+<p align="justify">Instalación de CUDA: </p>
+
+{% highlight shell %}
+  $ sudo dnf install xorg-x11-drv-nvidia-cuda -y
+{% endhighlight %}
+
+<p align="justify">Suspensión</p>
+
+{% highlight shell %}
+  $ sudo dnf install xorg-x11-drv-nvidia-power -y
+{% endhighlight %}
+
+{% highlight shell %}
+  $ sudo systemctl enable nvidia-{suspend,resume,hibernate}
+{% endhighlight %}
+
+<p align="justify">Instalación de VULKAN</p>
+
+{% highlight shell %}
+  $ sudo dnf install vulkan -y
+{% endhighlight %}
+
+{% highlight shell %}
+  $ sudo systemctl enable nvidia-{suspend,resume,hibernate}
+{% endhighlight %}
+
+<p align="justify">Instalación de NVENC/NVDEC</p>
+
+{% highlight shell %}
+  $ sudo dnf install xorg-x11-drv-nvidia-cuda-libs -y
+{% endhighlight %}
+
+<p align="justify">Otros paquetes de NVIDIA</p>
+
+{% highlight shell %}
+  $ sudo dnf install xorg-x11-drv-nvidia xorg-x11-drv-nvidia-libs xorg-x11-drv-nvidia-libs.i686 -y
+{% endhighlight %}
+
+
+#### Configuración gráfica básica de SELinux y el cortafuegos
+
+{% highlight shell %}
+  $ sudo dnf install policycoreutils-gui firewall-config -y
+{% endhighlight %}
