@@ -28,3 +28,32 @@ tags:   Linux
 {% endhighlight %}
 
 ![]({{site.baseurl}}/images/23.png)
+
+<p align="justify">En Fedora, se utiliza de forma predeterminada la biblioteca openh264, por lo que necesita que el repositorio esté habilitado explícitamente:</p>
+
+{% highlight shell %}
+  $ sudo dnf config-manager --enable fedora-cisco-openh264
+{% endhighlight %}
+
+<p align="justify">Tendrás que reiniciar para que aparezcan los repositorios de rpmfusion.</p>
+
+
+#### Metadatos de AppStream
+
+<p align="justify">Los repositorios de RPM Fusion también proporcionan metadatos de Appstream para permitir a los usuarios instalar paquetes utilizando Gnome Software/KDE Discover. Tenga en cuenta que estos son un subconjunto de todos los paquetes, ya que los metadatos solo se generan para paquetes GUI.</p>
+
+<p align="justify">Para las versiones actuales de Fedora: el método sugerido es instalar appstream-data usando DNF.</p>
+
+<p align="justify">El siguiente comando instalará los paquetes necesarios:</p>
+
+{% highlight shell %}
+  $ sudo dnf groupupdate core
+{% endhighlight %}
+
+![]({{site.baseurl}}/images/24.png)
+
+<p align="justify">Presione la tecla S para terminar la instalación de los paquetes rpmfusion-free-appstream-data rpmfusion-nonfree-appstream-data.</p>
+
+
+#### Configurar Flathub
+
