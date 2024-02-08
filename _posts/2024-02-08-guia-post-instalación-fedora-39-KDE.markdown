@@ -107,3 +107,83 @@ tags:   Linux
   $ sudo dnf groupupdate sound-and-video
 {% endhighlight %}
 
+###### Instalar otros codecs y compresores.
+
+<p align="justify">Tras configurar los repositorios de RPM Fusion, en primer lugar vamos a instalar los paquetes básicos para la multimedia, el soporte de RAW y WebP para el visor de imágenes, la aplicación File-Roller (que ahora no viene preinstalada), el compresor/descompresor 7Zip y el descompresor UNRAR: </p>
+
+{% highlight shell %}
+  $ sudo dnf install gstreamer1-libav gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-good-extras gstreamer1-plugins-ugly unrar p7zip p7zip-plugins gstreamer1-plugin-openh264 mozilla-openh264 openh264 webp-pixbuf-loader gstreamer1-plugins-bad-free-fluidsynth gstreamer1-plugins-bad-free-wildmidi gstreamer1-svt-av1 libopenraw-pixbuf-loader dav1d file-roller
+{% endhighlight %}
+
+
+###### Instalar el soporte para VA-API (aceleración por hardware) de Gstreamer
+
+{% highlight shell %}
+  $ sudo dnf install gstreamer1-vaapi libva libva-utils
+{% endhighlight %}
+
+
+###### Aceleración por hardware
+
+<p align="justify">Para aquellos que usen una gráfica de Intel (por ahora solo las integradas incluidas en sus propios procesadores) pueden obtener el soporte de aceleración por hardware instalando los siguientes paquetes: </p>
+
+<p align="justify">Intel (reciente)</p>
+
+{% highlight shell %}
+  $ sudo dnf install intel-media-driver
+{% endhighlight %}
+
+<p align="justify">Intel (más viejo)</p>
+
+{% highlight shell %}
+  $ sudo dnf install libva-intel-driver
+{% endhighlight %}
+
+
+<p align="justify">Códecs de hardware con AMD (mesa)</p>
+
+{% highlight shell %}
+  $ sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
+{% endhighlight %}
+
+{% highlight shell %}
+  $ sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
+{% endhighlight %}
+
+<p align="justify">Si utiliza bibliotecas compatibles con i686 (para Steam o similares):</p>
+
+{% highlight shell %}
+  $ sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
+{% endhighlight %}
+
+{% highlight shell %}
+  $ sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
+{% endhighlight %}
+
+
+<p align="justify">Códecs de hardware con NVIDIA, el controlador propietario de Nvidia no es compatible con VAAPI, pero existe un contenedor que puede unir NVDEC/NVENC con VAAPI.</p>
+
+{% highlight shell %}
+  $ sudo dnf install nvidia-vaapi-driver
+{% endhighlight %}
+
+<p align="justify">Reproducir un DVD</p>
+
+{% highlight shell %}
+  $ sudo dnf install rpmfusion-free-release-tainted
+{% endhighlight %}
+
+{% highlight shell %}
+  $ sudo dnf install libdvdcss
+{% endhighlight %}
+
+
+###### Renderización de vídeo
+
+<p align="justify">En la actualidad hay muchos editores de vídeo Open Source de calidad que se adaptan bien a esos usuarios sin profundos conocimientos del tema, como Avidemux, Shotcut y Kdenlive. Para renderizar vídeos con populares formatos como x264 y x265 solo hay que instalar lo siguiente: </p>
+
+{% highlight shell %}
+  $ sudo dnf install x264 h264enc x265 svt-av1 rav1e
+{% endhighlight %}
+
+
