@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About and certifications
+title: About me
 permalink: /about/
 image: profile5.jpeg
 ---
