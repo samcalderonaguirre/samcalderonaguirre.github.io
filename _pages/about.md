@@ -60,8 +60,8 @@ image: profile5.jpeg
 ##### Guide to Starting a Career in Data Science and Artificial Intelligence
 <small>March 15, 2024</small>
 
-<p align="center"><a href="https://platzi.com/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/LOGO-PLATZI-2023.svg/512px-LOGO-PLATZI-2023.svg.png" width="350" height="350" align="center" alt="Cisco Networking Academy"></a></p>
+<p align="center"><a href="https://platzi.com/p/samcalderonaguirre1996/curso/2807-aprender-data-ia/diploma/detalle/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/LOGO-PLATZI-2023.svg/512px-LOGO-PLATZI-2023.svg.png" width="350" height="350" align="center" alt="Cisco Networking Academy"></a></p>
 
-<p align="justify"><a href="https://drive.google.com/file/d/1HiadGjwZv5ZO81i13R4TXFtH0adbmDac/view?usp=sharing">Diploma of "Guide to Starting a Career in Data Science and Artificial Intelligence"</a>.</p>
+<p align="justify"><a href="https://platzi.com/p/samcalderonaguirre1996/curso/2807-aprender-data-ia/diploma/detalle/">Diploma of "Guide to Starting a Career in Data Science and Artificial Intelligence"</a>.</p>
 
 ***
