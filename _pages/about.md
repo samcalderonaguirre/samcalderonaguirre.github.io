@@ -65,3 +65,23 @@ image: profile5.jpeg
 <p align="justify"><a href="https://platzi.com/p/samcalderonaguirre1996/curso/2807-aprender-data-ia/diploma/detalle/">Diploma of "Guide to Starting a Career in Data Science and Artificial Intelligence"</a>.</p>
 
 ***
+
+***
+##### AI Fundamentals Course for Data and Machine Learning
+<small>March 20, 2024</small>
+
+<p align="center"><a href="https://platzi.com/p/samcalderonaguirre1996/curso/6935-ia-data-ml/diploma/detalle/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/LOGO-PLATZI-2023.svg/512px-LOGO-PLATZI-2023.svg.png" width="350" height="350" align="center" alt="Cisco Networking Academy"></a></p>
+
+<p align="justify"><a href="https://platzi.com/p/samcalderonaguirre1996/curso/6935-ia-data-ml/diploma/detalle/">Diploma of "AI Fundamentals Course for Data and Machine Learning"</a>.</p>
+
+***
+
+***
+##### Prompt Engineering course with ChatGPT
+<small>March 25, 2024</small>
+
+<p align="center"><a href="https://platzi.com/p/samcalderonaguirre1996/curso/7296-chatgpt/diploma/detalle/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/LOGO-PLATZI-2023.svg/512px-LOGO-PLATZI-2023.svg.png" width="350" height="350" align="center" alt="Cisco Networking Academy"></a></p>
+
+<p align="justify"><a href="https://platzi.com/p/samcalderonaguirre1996/curso/7296-chatgpt/diploma/detalle/">Diploma of "Prompt Engineering course with ChatGPT"</a>.</p>
+
+***
