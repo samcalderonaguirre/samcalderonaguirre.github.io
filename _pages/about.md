@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About me
+title: Acerca de
 permalink: /about/
-image: profile5.jpeg
+image: profile8.jpeg
 ---
 
 
