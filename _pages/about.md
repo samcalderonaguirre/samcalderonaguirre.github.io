@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Acerca de
+title: Acerca de SAM TECH
 permalink: /about/
 image: profile8.png
 ---
 
 
-<p align="justify">Systems engineer graduated from the <a href="https://www.utmachala.edu.ec/portalwp/">Technical University of Machala</a>, I have worked as an IT support technician and Jr. systems administrator. I am currently studying Machine Learning and Artificial Intelligence. Passionate about the world of Linux and open source. I study Gnostic knowledge as a philosophy of life for personal development.</p>
+<p align="justify">Ingeniero de sistemas graduado de la <a href="https://www.utmachala.edu.ec/portalwp/">Technical University of Machala</a>, I have worked as an IT support technician and Jr. systems administrator. I am currently studying Machine Learning and Artificial Intelligence. Passionate about the world of Linux and open source. I study Gnostic knowledge as a philosophy of life for personal development.</p>
 
 
 ***
