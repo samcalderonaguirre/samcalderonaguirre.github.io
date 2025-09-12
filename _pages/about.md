@@ -2,7 +2,7 @@
 layout: page
 title: Acerca de
 permalink: /about/
-image: profile8.jpeg
+image: profile8.png
 ---
 
 
