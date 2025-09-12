@@ -2,16 +2,16 @@
 # General Site Settings
 title: SAM TECH
 logo: logo5.svg # You can add own logo.
-description: Website and personal blog of Sam Calderón Aguirre
+description: Soluciones tecnológicas a tu alcance. Tecnología sin límites, soporte sin preocupaciones
 
 
 #-------------------------------
 # Author Settings
 author:
-  name: Samuel Isaías Calderón Aguirre
+  name: SAM TECH
   image: profile6.png
-  say-hello: Hello, I’m <strong>Samuel Calderón Aguirre</strong>
-  bio: <strong>Systems engineer</strong>, IT support technician. <strong>Machine Learning</strong> and <strong>Artificial Intelligence</strong> student. Passionate about the world of <strong>Linux</strong> and <strong>open source</strong>.
+  say-hello: En <strong>SAM TECH</strong>
+  bio: Ofrecemos soluciones rápidas y seguras en <strong>eparación de computadoras, soporte técnico y mantenimiento TI.</strong> Tu equipo siempre al 100%
 
 
 #-------------------------------
