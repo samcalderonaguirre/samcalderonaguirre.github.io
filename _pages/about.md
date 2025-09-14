@@ -161,7 +161,6 @@ image: profile8.png
 
  <!-- SOBRE -->
   <section class="about">
-    <h2>Sobre Nosotros</h2>
     <p>En <b>SAM TECH</b> contamos con experiencia en reparación de equipos, soporte técnico y soluciones TI. 
     Nuestro compromiso es ayudarte a mantener tus sistemas funcionando al máximo rendimiento con un servicio confiable y profesional.</p>
   </section> 
@@ -175,7 +174,7 @@ image: profile8.png
 
  <!-- CONTACTO -->
   <section class="contact" id="contact">
-    <h2 style="text-align:center; margin-bottom:30px;">Contáctanos por WhatsApp</h2>
+    <h2 style="text-align:center; margin-bottom:30px;">Contáctanos</h2>
     <form>
       <input type="text" placeholder="Tu Nombre" required />
       <input type="email" placeholder="Tu Correo" required />
