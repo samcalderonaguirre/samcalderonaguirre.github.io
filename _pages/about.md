@@ -36,7 +36,7 @@ image: profile8.png
 
     .btn {
       display: inline-block;
-      background: #ff6600;
+      background: #462cbb;
       color: #fff;
       padding: 12px 24px;
       border-radius: 5px;
@@ -45,7 +45,7 @@ image: profile8.png
     }
 
     .btn:hover {
-      background: #e65c00;
+      background: #433688;
     }
 
     /* ------------------- HERO ------------------- */
