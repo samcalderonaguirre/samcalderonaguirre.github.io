@@ -54,7 +54,7 @@ layout: default
     /* ------------------- HERO ------------------- */
     .hero {
       background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url("https://www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/nvidia-dgx-spark-bm-lg580-offset-d.jpg") no-repeat center/cover;
+        url("{{site.baseurl}}/images/home.jpg") no-repeat center/cover;
       color: #fff;
       text-align: center;
       padding: 100px 20px;
@@ -178,25 +178,26 @@ layout: default
     <h2 style="text-align:center; margin-bottom:30px;">Nuestros Servicios</h2>
     <div class="services">
       <div class="service">
-        <h3>🖥️ Reparación de Computadores</h3>
+        <h3>🖥️ Reparación de PC y Laptops</h3>
         <p>Diagnóstico, reparación de hardware y software para laptops y PCs.</p>
         <img src="{{site.baseurl}}/images/reparacion-de-pc.jpg"" alt="">
       </div>
       <div class="service">
         <h3>⚡ Mantenimiento Preventivo</h3>
         <p>Optimización de equipos y limpieza física para extender la vida útil.</p>
+        <img src="{{site.baseurl}}/images/mantenimiento-de-computadoras-img-1.jpg"" alt="">
       </div>
       <div class="service">
-        <h3>🌐 Redes e Internet</h3>
-        <p>Instalación y configuración de redes seguras para hogar y empresa.</p>
+        <h3>📡 Redes y Cableado</h3>
+        <p>Montaje y configuración de redes seguras para hogar y oficina.</p>
       </div>
       <div class="service">
-        <h3>🔒 Seguridad Informática</h3>
-        <p>Protección de datos, antivirus y respaldo en la nube.</p>
+        <h3>🔒 Recuperación de Datos y Seguridad Informática</h3>
+        <p>Protección de datos, antivirus y respaldo de información.</p>
       </div>
       <div class="service">
-        <h3>☁️ Virtualización</h3>
-        <p>Asesoría en VMware, Hyper-V y soluciones cloud para tu empresa.</p>
+        <h3>🖥️ Instalación de Software</h3>
+        <p>Instalación de sistemas operativos, programas y configuración.</p>
       </div>
     </div>
   </section>
@@ -205,7 +206,7 @@ layout: default
 	<div class="row">
 		<div class="col col-12">
 			{% if site.posts.size > 0 %}
-				<h4 class="lates-title"> Últimas publicaciones </h4>
+				<h4 class="lates-title"> Blog </h4>
 			{% endif %}
 		</div>
 	</div>
