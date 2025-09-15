@@ -131,7 +131,7 @@ image: profile8.png
     }
 
     .contact button {
-      background: #ff6600;
+      background: #8400ff;
       color: #fff;
       padding: 12px;
       border: none;
@@ -141,7 +141,7 @@ image: profile8.png
     }
 
     .contact button:hover {
-      background: #e65c00;
+      background: #00e600;
     }
 
     /* ------------------- FOOTER ------------------- */
