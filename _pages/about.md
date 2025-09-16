@@ -158,19 +158,23 @@ image: home.jpg
     }
   </style>
 
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="bg-gray-200 py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Sobre mí</h3>
+      <p class="text-lg">
+        Soy <strong>Samuel Calderón</strong>, especialista en soporte técnico con experiencia en reparación de
+        computadoras, instalación de software, redes y soluciones tecnológicas. 
+        Mi misión es ayudarte a mantener tu tecnología funcionando al 100%.
+      </p>
+    </div>
+  </section>
 
  <!-- SOBRE -->
   <section class="about">
     <p>En <b>SAM TECH</b> contamos con experiencia en reparación de equipos, soporte técnico y soluciones TI. 
     Nuestro compromiso es ayudarte a mantener tus sistemas funcionando al máximo rendimiento con un servicio confiable y profesional.</p>
   </section> 
-
-  <!-- TESTIMONIOS -->
-  <section class="testimonials">
-    <h2>Testimonios</h2>
-    <p class="testimonial">"Gracias a SAM TECH recuperé mi laptop en menos de 24 horas, servicio excelente y rápido."</p>
-    <p class="testimonial">"Muy profesionales, solucionaron mis problemas de red en la oficina. 100% recomendados."</p>
-  </section>
 
  <!-- CONTACTO -->
   <section class="contact" id="contact">
