@@ -158,7 +158,6 @@ image: portafolio.jpg
     }
   </style>
 
- <img src="https://samcalderonaguirre.github.io/images/portafolio1.jpg"" alt="">
  ![]({{site.baseurl}}/images/14.png)
   <!-- Portafolio -->
   <section>
@@ -167,22 +166,22 @@ image: portafolio.jpg
       <div class="service">
         <h3>🖥️ Optimización de Laptops</h3>
         <p>Actualización de hardware y mejora de rendimiento en equipos antiguos.</p>
-        <img src="https://samcalderonaguirre.github.io/images/portafolio1.jpg"" alt="">
+         ![]({{site.baseurl}}/images/portafolio1.jpg)
       </div>
       <div class="service">
         <h3>🔒 Recuperación de Datos</h3>
         <p>Rescate exitoso de información en discos dañados</p>
-        <img src="https://samcalderonaguirre.github.io/images/recovery.png"" alt="">
+        ![]({{site.baseurl}}/images/recovery.png)
       </div>
       <div class="service">
         <h3>🖥️ Instalación de Software</h3>
         <p>Instalación de sistemas operativos, programas y configuraciones.</p>
-        <img src="https://samcalderonaguirre.github.io/images/portafolio2.jpg"" alt="">
+        ![]({{site.baseurl}}/images/portafolio2.jpg)
       </div>
       <div class="service">
         <h3>🌐 Soporte Remoto y Presencial</h3>
         <p>Atención rápida vía online o visita técnica</p>
-        <img src="https://samcalderonaguirre.github.io/images/soporte.jpg"" alt="">
+        ![]({{site.baseurl}}/images/soporte.jpg)
       </div>
     </div>
   </section>
