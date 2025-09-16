@@ -167,25 +167,17 @@ image: home.jpg
         computadoras, instalación de software, redes y soluciones tecnológicas. 
         Mi misión es ayudarte a mantener tu tecnología funcionando al 100%.
       </p>
+      <p>En <b>SAM TECH</b> contamos con experiencia en reparación de equipos, soporte técnico y soluciones TI. 
+    Nuestro compromiso es ayudarte a mantener tus sistemas funcionando al máximo rendimiento con un servicio confiable y profesional.</p>
     </div>
   </section>
 
- <!-- SOBRE -->
-  <section class="about">
-    <p>En <b>SAM TECH</b> contamos con experiencia en reparación de equipos, soporte técnico y soluciones TI. 
-    Nuestro compromiso es ayudarte a mantener tus sistemas funcionando al máximo rendimiento con un servicio confiable y profesional.</p>
-  </section> 
-
- <!-- CONTACTO -->
-  <section class="contact" id="contact">
-    <h2 style="text-align:center; margin-bottom:30px;">Contáctanos</h2>
-    <form>
-      <input type="text" placeholder="Tu Nombre" required />
-      <input type="email" placeholder="Tu Correo" required />
-      <textarea rows="5" placeholder="Escribe tu mensaje..." required></textarea>
-      <button type="submit">Enviar Mensaje</button>
-    </form>
-    <div style="text-align:center; margin-top:20px;">
-      <a class="btn" href="https://wa.me/593999999999" target="_blank">📱 Escríbenos por WhatsApp</a>
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">Contacto</h3>
+    <div class="text-center">
+      <p class="mb-4">📧 Email: <a href="mailto:samcalderonaguirre1996@gmail.com" class="text-blue-700 font-semibold">samcalderonaguirre1996@gmail.com</a></p>
+      <p class="mb-4">📱 WhatsApp: <a href="https://wa.me/593985834795" target="_blank" class="text-green-600 font-semibold">+593 98 583 4795</a></p>
+      <p class="mb-4">📍 Ubicación: Machala, Ecuador</p>
     </div>
   </section>
