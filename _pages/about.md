@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Sobre Nosotros
+title: Acerca de nosotros
 permalink: /about/
-image: profile8.png
+image: home.jpg
 ---
   <style>
     /* ------------------- ESTILOS GENERALES ------------------- */
