@@ -172,12 +172,39 @@ image: home.jpg
     </div>
   </section>
 
-  <!-- Contacto -->
-  <section id="contacto" class="py-16 max-w-6xl mx-auto px-6">
-    <h3 class="text-3xl font-bold text-center mb-10">Contacto</h3>
-    <div class="text-center">
-      <p class="mb-4">📧 Email: <a href="mailto:samcalderonaguirre1996@gmail.com" class="text-blue-700 font-semibold">samcalderonaguirre1996@gmail.com</a></p>
-      <p class="mb-4">📱 WhatsApp: <a href="https://wa.me/593985834795" target="_blank" class="text-green-600 font-semibold">+593 98 583 4795</a></p>
-      <p class="mb-4">📍 Ubicación: Machala, Ecuador</p>
+
+<!-- Contacto -->
+<section class="py-5" id="contacto">
+  <div class="container">
+    <h2 class="section-title text-center" data-aos="fade-up">Contáctame</h2>
+    <p class="text-center mb-5 text-muted" data-aos="fade-up" data-aos-delay="100">
+      Ponte en contacto conmigo a través de los siguientes medios:
+    </p>
+    <div class="row justify-content-center">
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="card shadow p-4 text-center">
+          <h5 class="fw-bold mb-3">Información de contacto</h5>
+          <p>
+            <i class="bi bi-envelope-fill text-primary me-2"></i>
+            <a href="mailto:samcalderonaguirre1996@gmail.com">
+              samcalderonaguirre1996@gmail.com
+            </a>
+          </p>
+          <p>
+            <i class="bi bi-whatsapp text-success me-2"></i>
+            <a href="https://wa.me/593985834795" target="_blank">
+              +593 98 583 4795
+            </a>
+          </p>
+          <hr>
+          <a href="https://wa.me/593985834795" target="_blank" class="btn btn-success w-100 mt-2">
+            <i class="bi bi-whatsapp"></i> Escríbeme por WhatsApp
+          </a>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- Bootstrap Icons (si aún no los tienes en tu <head>) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">

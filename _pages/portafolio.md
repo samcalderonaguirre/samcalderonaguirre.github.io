@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Portafolio de Servicios
+title: Portafolio
 permalink: /portafolio/
 image: portafolio.jpg
 ---
