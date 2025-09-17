@@ -21,7 +21,7 @@ Eso es justamente lo que llamamos **mantenimiento preventivo**.
 El mantenimiento preventivo es como llevar tu carro a revisión antes de que se dañe.  
 En las computadoras consiste en revisarlas, limpiarlas y actualizarlas regularmente para que funcionen bien y no presenten fallas inesperadas.  
 
-![Limpieza interna de PC]({{site.baseurl}}/images/post-mantenimiento-02.png)
+![Limpieza interna de PC]({{site.baseurl}}/images/post-mantenimiento-06.jpg)
 
 ---
 
