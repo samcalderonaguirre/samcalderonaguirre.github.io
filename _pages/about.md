@@ -166,7 +166,7 @@ image: about.png
       <!-- Imagen -->
       <div class="col-md-6" data-aos="fade-right">
         <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
-          <img src="{{site.baseurl}}/images/home.jpg" alt="SAM TECH" 
+          <img src="{{site.baseurl}}/images/banner_about.png" alt="SAM TECH" 
                class="img-fluid about-img">
         </div>
       </div>
@@ -174,24 +174,25 @@ image: about.png
       <!-- Texto -->
       <div class="col-md-6" data-aos="fade-left">
         <div class="card border-0 shadow p-4 rounded-4 bg-white">
-          <h2 class="fw-bold mb-3">
+          <h2 class="fw-bold mb-3 text-center">
             Sobre <span class="text-primary">SAM TECH</span>
           </h2>
-          <p class="text-muted mb-3">
+          <p class="text-muted mb-3 text-justify">
             En <strong>SAM TECH</strong>, fundada por <strong>Samuel Calderón Aguirre</strong>, 
             nos especializamos en brindar soluciones integrales en 
             <em>soporte técnico, mantenimiento, reparación de computadores y respaldo de datos</em>.  
             Nuestro compromiso es ofrecer un servicio profesional, confiable y adaptado a las necesidades 
             tecnológicas de cada cliente.
           </p>
-          <p class="text-muted">
+          <p class="text-muted text-justify">
             Con experiencia en el área de TI, buscamos ser tu aliado estratégico para que tu equipo y tus sistemas 
             funcionen siempre al más alto nivel. Nos destacamos por la atención personalizada, la eficiencia en 
             la resolución de problemas y la pasión por la innovación tecnológica.
           </p>
 
-          <!-- Botones de contacto -->
-          <div class="d-flex flex-wrap gap-3 mt-4">
+          <!-- Sección de Contacto -->
+          <h4 class="fw-bold text-center mt-4 mb-3">Contáctame</h4>
+          <div class="d-flex flex-wrap justify-content-center gap-3">
             <a href="mailto:samcalderonaguirre1996@gmail.com" 
                class="btn btn-outline-primary rounded-pill px-3 shadow-sm">
               <i class="bi bi-envelope-fill me-2"></i> Email
@@ -200,13 +201,17 @@ image: about.png
                class="btn btn-success rounded-pill px-3 shadow-sm">
               <i class="bi bi-whatsapp me-2"></i> WhatsApp
             </a>
-            <a href="https://www.facebook.com/sam.tech.ecuador/" target="_blank" 
-               class="btn btn-outline-primary rounded-pill px-3 shadow-sm" style="background:#1877f2; color:#fff;">
+            <a href="https://facebook.com/sam.tech.ecuador" target="_blank" 
+               class="btn rounded-pill px-3 shadow-sm" style="background:#1877f2; color:#fff;">
               <i class="bi bi-facebook me-2"></i> Facebook
             </a>
-            <a href="https://www.instagram.com/samtechec/" target="_blank" 
-               class="btn btn-outline-danger rounded-pill px-3 shadow-sm" style="background:#e4405f; color:#fff;">
+            <a href="https://instagram.com/samtechec" target="_blank" 
+               class="btn rounded-pill px-3 shadow-sm" style="background:#e4405f; color:#fff;">
               <i class="bi bi-instagram me-2"></i> Instagram
+            </a>
+            <a href="https://x.com/samcalderonag23" target="_blank" 
+               class="btn rounded-pill px-3 shadow-sm" style="background:#000; color:#fff;">
+              <i class="bi bi-twitter-x me-2"></i> X
             </a>
           </div>
         </div>
@@ -230,7 +235,10 @@ image: about.png
   .btn:hover {
     transform: translateY(-3px);
   }
+  #acerca p {
+    text-align: justify;
+  }
 </style>
 
-<!-- Bootstrap Icons (si aún no los tienes en tu <head>) -->
+<!-- Bootstrap Icons (añadir en <head> si no los tienes ya) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
