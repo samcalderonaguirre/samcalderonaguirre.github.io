@@ -172,6 +172,46 @@ image: home.jpg
     </div>
   </section>
 
+<!-- Acerca de Nosotros -->
+<section class="py-5" id="acerca" style="background: linear-gradient(135deg, #f8f9fa, #e9ecef);">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      
+      <!-- Imagen -->
+      <div class="col-md-6" data-aos="fade-right">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+          <img src="{{site.baseurl}}/images/home.jpg" alt="SAM TECH" 
+               class="img-fluid about-img">
+        </div>
+      </div>
+
+      <!-- Texto -->
+      <div class="col-md-6" data-aos="fade-left">
+        <div class="card border-0 shadow p-4 rounded-4 bg-white">
+          <h2 class="fw-bold mb-3">
+            Acerca de <span class="text-primary">SAM TECH</span>
+          </h2>
+          <p class="text-muted mb-3">
+            En <strong>SAM TECH</strong>, fundada por <strong>Samuel Calderón Aguirre</strong>, 
+            nos especializamos en brindar soluciones integrales en 
+            <em>soporte técnico, mantenimiento, reparación de computadores y respaldo de datos</em>.  
+            Nuestro compromiso es ofrecer un servicio profesional, confiable y adaptado a las necesidades 
+            tecnológicas de cada cliente.
+          </p>
+          <p class="text-muted">
+            Con experiencia en el área de TI, buscamos ser tu aliado estratégico para que tu equipo y tus sistemas 
+            funcionen siempre al más alto nivel. Nos destacamos por la atención personalizada, la eficiencia en 
+            la resolución de problemas y la pasión por la innovación tecnológica.
+          </p>
+          <a href="#contacto" class="btn btn-primary mt-3 px-4 py-2 rounded-pill shadow-sm">
+            <i class="bi bi-chat-dots"></i> Conversemos
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Contacto -->
 <section class="py-5" id="contacto">

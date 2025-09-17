@@ -160,7 +160,7 @@ image: portafolio.jpg
 
   <!-- Portafolio -->
   <section>
-    <h2 style="text-align:center; margin-bottom:30px;">Nuestros Servicios</h2>
+    <h2 style="text-align:center; margin-bottom:30px;">Portafolio de Servicios</h2>
     <div class="services">
       <div class="service">
         <h3>🖥️ Optimización de Laptops</h3>
