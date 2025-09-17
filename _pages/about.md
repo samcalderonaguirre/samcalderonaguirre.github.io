@@ -2,7 +2,7 @@
 layout: page
 title: Acerca de nosotros
 permalink: /about/
-image: home.jpg
+image: about.png
 ---
   <style>
     /* ------------------- ESTILOS GENERALES ------------------- */
@@ -158,20 +158,6 @@ image: home.jpg
     }
   </style>
 
-  <!-- Sobre mí -->
-  <section id="sobre-mi" class="bg-gray-200 py-16">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h3 class="text-3xl font-bold mb-6">Sobre mí</h3>
-      <p class="text-lg">
-        Soy <strong>Samuel Calderón</strong>, especialista en soporte técnico con experiencia en reparación de
-        computadoras, instalación de software, redes y soluciones tecnológicas. 
-        Mi misión es ayudarte a mantener tu tecnología funcionando al 100%.
-      </p>
-      <p>En <b>SAM TECH</b> contamos con experiencia en reparación de equipos, soporte técnico y soluciones TI. 
-    Nuestro compromiso es ayudarte a mantener tus sistemas funcionando al máximo rendimiento con un servicio confiable y profesional.</p>
-    </div>
-  </section>
-
 <!-- Acerca de Nosotros -->
 <section class="py-5" id="acerca" style="background: linear-gradient(135deg, #f8f9fa, #e9ecef);">
   <div class="container">
@@ -189,7 +175,7 @@ image: home.jpg
       <div class="col-md-6" data-aos="fade-left">
         <div class="card border-0 shadow p-4 rounded-4 bg-white">
           <h2 class="fw-bold mb-3">
-            Acerca de <span class="text-primary">SAM TECH</span>
+            Sobre <span class="text-primary">SAM TECH</span>
           </h2>
           <p class="text-muted mb-3">
             En <strong>SAM TECH</strong>, fundada por <strong>Samuel Calderón Aguirre</strong>, 
@@ -203,48 +189,48 @@ image: home.jpg
             funcionen siempre al más alto nivel. Nos destacamos por la atención personalizada, la eficiencia en 
             la resolución de problemas y la pasión por la innovación tecnológica.
           </p>
-          <a href="#contacto" class="btn btn-primary mt-3 px-4 py-2 rounded-pill shadow-sm">
-            <i class="bi bi-chat-dots"></i> Conversemos
-          </a>
+
+          <!-- Botones de contacto -->
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="mailto:samcalderonaguirre1996@gmail.com" 
+               class="btn btn-outline-primary rounded-pill px-3 shadow-sm">
+              <i class="bi bi-envelope-fill me-2"></i> Email
+            </a>
+            <a href="https://wa.me/593985834795" target="_blank" 
+               class="btn btn-success rounded-pill px-3 shadow-sm">
+              <i class="bi bi-whatsapp me-2"></i> WhatsApp
+            </a>
+            <a href="https://www.facebook.com/sam.tech.ecuador/" target="_blank" 
+               class="btn btn-outline-primary rounded-pill px-3 shadow-sm" style="background:#1877f2; color:#fff;">
+              <i class="bi bi-facebook me-2"></i> Facebook
+            </a>
+            <a href="https://www.instagram.com/samtechec/" target="_blank" 
+               class="btn btn-outline-danger rounded-pill px-3 shadow-sm" style="background:#e4405f; color:#fff;">
+              <i class="bi bi-instagram me-2"></i> Instagram
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
-<!-- Contacto -->
-<section class="py-5" id="contacto">
-  <div class="container">
-    <h2 class="section-title text-center" data-aos="fade-up">Contáctame</h2>
-    <p class="text-center mb-5 text-muted" data-aos="fade-up" data-aos-delay="100">
-      Ponte en contacto conmigo a través de los siguientes medios:
-    </p>
-    <div class="row justify-content-center">
-      <div class="col-md-6" data-aos="fade-up">
-        <div class="card shadow p-4 text-center">
-          <h5 class="fw-bold mb-3">Información de contacto</h5>
-          <p>
-            <i class="bi bi-envelope-fill text-primary me-2"></i>
-            <a href="mailto:samcalderonaguirre1996@gmail.com">
-              samcalderonaguirre1996@gmail.com
-            </a>
-          </p>
-          <p>
-            <i class="bi bi-whatsapp text-success me-2"></i>
-            <a href="https://wa.me/593985834795" target="_blank">
-              +593 98 583 4795
-            </a>
-          </p>
-          <hr>
-          <a href="https://wa.me/593985834795" target="_blank" class="btn btn-success w-100 mt-2">
-            <i class="bi bi-whatsapp"></i> Escríbeme por WhatsApp
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<!-- Estilos adicionales -->
+<style>
+  .about-img {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .about-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  }
+  .btn {
+    transition: transform 0.2s ease-in-out;
+  }
+  .btn:hover {
+    transform: translateY(-3px);
+  }
+</style>
 
 <!-- Bootstrap Icons (si aún no los tienes en tu <head>) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
