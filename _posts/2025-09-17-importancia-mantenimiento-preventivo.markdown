@@ -2,13 +2,13 @@
 layout: post
 title:  La Importancia del Mantenimiento Preventivo en tu Computadora 💻🛠️
 date:   2025-09-17 17:23:23 +0300
-image:  post-mantenimiento-01.png
+image:  post-mantenimiento-07.jpg
 tags:   Mantenimiento
 ---
 
 # La Importancia del Mantenimiento Preventivo en tu Computadora 💻🛠️
 
-![Computadora en mantenimiento]({{site.baseurl}}/images/post-mantenimiento-02.png)
+![Computadora en mantenimiento]({{site.baseurl}}/images/post-mantenimiento-08.jpg)
 
 En **SAM TECH** sabemos que tu computadora es parte esencial de tu vida diaria, ya sea para trabajar, estudiar o entretenerte.  
 Muchas personas esperan a que su PC falle para llevarla al técnico, pero lo mejor es **cuidarla antes de que se dañe**.  
