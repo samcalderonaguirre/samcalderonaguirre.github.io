@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ✅ Por qué bajan los FPS a la mitad al conectar un monitor HDMI en Wayland
+title:  ✅ Por qué bajan los FPS a la mitad al conectar un monitor HDMI en Wayland usando gráficos NVIDIA
 date:   2025-12-29 22:23:23 +0300
 image:  wayland-nvidia.jpg
 tags:   Linux
